@@ -5,6 +5,7 @@
      display: flex;
      justify-content: center;
      align-items: center;
+     
     }
     
 .head h1{
@@ -14,7 +15,8 @@
     
 .cont1{
      height: 300vh;
-     background-color: darkblue;
+     
+     background: linear-gradient(55deg, #c400f5 0%, #1f86db 51%, #2cb5e8 85%)
      
 }
   
@@ -24,6 +26,8 @@
 }
 
 img{
+    position: relative;
+    left: 15px;
     width: 270px;
     margin: 10px;
     
@@ -50,7 +54,7 @@ img{
     
     .cont1{
         height: 300vh;
-        background-color: rgb(0, 0, 92);
+        background: linear-gradient(55deg, #c400f5 0%, #1f86db 51%, #2cb5e8 85%)
     }
     
     

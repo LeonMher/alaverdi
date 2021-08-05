@@ -19,6 +19,7 @@ function HomePage() {
 
 
 
+
         window.addEventListener('scroll', function () {
             const header = document.querySelector('.head')
             header.style.opacity = 1 - +window.pageYOffset / 202 + ''
@@ -42,7 +43,7 @@ function HomePage() {
     return (
         <div>
             <div className='head'>
-                <h1 data-aos="fade-up">ALAVERDI</h1>
+                <h1 style={{ position: 'fixed' }}>ALAVERDI</h1>
             </div>
             <div className='body'>
                 <div className='cont1'>

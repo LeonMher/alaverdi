@@ -2,13 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Libre Baskerville', serif;
 }
 
-.nav{
-  margin-left: 150px;
-  width: 300px;
-  font-size: 30px;
-  color: white;
- 
-}
+
 

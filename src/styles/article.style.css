@@ -1,0 +1,14 @@
+.article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+
+.article p{
+    margin-top: 100px;
+}
+
+.articlesList{
+    margin-top: 200px;
+}
