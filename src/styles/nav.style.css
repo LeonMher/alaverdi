@@ -1,0 +1,16 @@
+.nav{
+    margin-left: 150px;
+    width: 300px;
+    font-size: 30px;
+    color: white;
+   
+    
+  }
+  
+.nav a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+
+}  
+
