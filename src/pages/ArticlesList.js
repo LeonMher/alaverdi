@@ -27,8 +27,8 @@ function ArticlesList() {
 
                         <ul>
                             <li>
-                                <Link key={key} to={`/article/${article.name}`}>
-                                    <h3 data-aos="fade-right">{article.title}</h3>
+                                <Link style={{ position: 'absolute' }} key={key} to={`/article/${article.name}`}>
+                                    <h3 data-aos="fade-up">{article.title}</h3>
                                     <div className='picFrame'>
                                         {article.picture}
                                     </div>
