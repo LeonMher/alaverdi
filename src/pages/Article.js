@@ -18,13 +18,17 @@ function Article({ match }) {
 
             <h1>{article.title}</h1>
 
+
             {article.content.map((val) => {
                 return (
                     <>
+
+
                         <p>{val}</p>
                         <div className='pictureInPost'>
                             {article.picture}
                         </div>
+
                     </>
                 )
 
@@ -32,7 +36,7 @@ function Article({ match }) {
 
 
 
-        </div>
+        </div >
     )
 }
 

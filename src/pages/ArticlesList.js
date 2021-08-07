@@ -24,6 +24,7 @@ function ArticlesList() {
 
                 {ArticleContent.map((article, key) => {
                     return (
+
                         <ul>
                             <li>
                                 <Link key={key} to={`/article/${article.name}`}>
@@ -34,6 +35,7 @@ function ArticlesList() {
                                 </Link>
                             </li>
                         </ul>
+
                     )
                 })}
             </div>
