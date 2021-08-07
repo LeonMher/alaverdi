@@ -25,7 +25,7 @@ function HomePage() {
     return (
         <div>
             <div className='head'>
-                <h1 >ALAVERDI</h1>
+                <h1 style={{ textTransform: 'uppercase' }} >alaverdi</h1>
             </div>
             <div className='body'>
                 <div className='cont1'>
