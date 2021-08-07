@@ -20,7 +20,12 @@ function Article({ match }) {
 
             {article.content.map((val) => {
                 return (
-                    <p>{val}</p>
+                    <>
+                        <p>{val}</p>
+                        <div className='pictureInPost'>
+                            {article.picture}
+                        </div>
+                    </>
                 )
 
             })}

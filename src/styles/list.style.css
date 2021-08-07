@@ -1,0 +1,59 @@
+.articlesList{
+    height: 100vh;
+    background-color: rgb(0, 4, 255);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    bottom:150px;
+    align-items: center;
+}
+
+.listContainer{
+    position: relative;
+    bottom: -450px;
+    right: 400px;
+    margin: 20px;
+   
+}
+
+.listContainer ul li {
+    list-style: none;
+    
+}
+
+.listContainer ul li a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    width: 300px;
+    
+}
+
+
+.listContainer ul {
+    background-color: hotpink;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+  
+}
+
+.pictureArticle{
+    position: relative;
+    width: 100%;
+    
+}
+
+.sanahinCss{
+   width: 95%;
+}
+.picFrame{
+    width: 250px;
+    position: relative;
+    left: -30px;
+}
+
+.nav{
+    cursor:auto;
+}
