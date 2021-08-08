@@ -9,6 +9,7 @@ import moonView from '../media/moonView.jpg'
 import stoneBridge from '../media/stoneBridge.jpg'
 import alaverdiView from '../media/alaverdiView.jpg'
 
+
 import '../styles/home.style.css'
 import '../styles/aos.css'
 

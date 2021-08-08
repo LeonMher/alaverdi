@@ -8,6 +8,8 @@
   }
   
 .nav a{
+  position: relative;
+    right: 10px;
     color: white;
     list-style: none;
     text-decoration: none;
