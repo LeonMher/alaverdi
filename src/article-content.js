@@ -36,7 +36,7 @@ const articles = [
         title: 'Haghpat',
         content: [`Tsaghkashat is one of the places where you would love to visit multiple times. `],
         picture: <img className='pictureArticle' src={HaghpatMonastery} />
-    },
+    },  
 
     {
         name: 'odzun',
