@@ -9,13 +9,18 @@ import moonView from '../media/moonView.jpg'
 import stoneBridge from '../media/stoneBridge.jpg'
 import alaverdiView from '../media/alaverdiView.jpg'
 
+import Title from 'react-vanilla-tilt'
+
 
 import '../styles/home.style.css'
 import '../styles/aos.css'
 
 function HomePage() {
 
+
+
     useEffect(() => {
+
 
 
         Aos.init({ duration: 2000 })
@@ -26,14 +31,24 @@ function HomePage() {
     return (
         <div>
             <div className='head'>
+
                 <h1 style={{ textTransform: 'uppercase' }} >alaverdi</h1>
+                <div className='circle'></div>
+
             </div>
             <div className='body'>
+
                 <div className='cont1'>
 
+
                     <div className='firstPic' data-aos="fade-right" >
+
                         <img src={villagesView} />
+
                     </div>
+
+                    <h2><a style={{ color: 'black' }} href={'https://quizzical-rosalind-64894c.netlify.app/'}>Virtual tour</a></h2>
+
 
                     <div className='secondPic' data-aos="fade-left" >
                         <img src={factoryView} />
@@ -66,7 +81,9 @@ function HomePage() {
                 </div>
 
             </div>
+
         </div>
+
     )
 }
 
