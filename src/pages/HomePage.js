@@ -47,7 +47,7 @@ function HomePage() {
 
                     </div>
 
-                    <h2><a style={{ color: 'black' }} href={'https://quizzical-rosalind-64894c.netlify.app/'}>Virtual tour</a></h2>
+
 
 
                     <div className='secondPic' data-aos="fade-left" >
