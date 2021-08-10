@@ -9,7 +9,7 @@ import moonView from '../media/moonView.jpg'
 import stoneBridge from '../media/stoneBridge.jpg'
 import alaverdiView from '../media/alaverdiView.jpg'
 
-import Title from 'react-vanilla-tilt'
+
 
 
 import '../styles/home.style.css'
@@ -30,7 +30,7 @@ function HomePage() {
 
     return (
         <div>
-            <div className='head'>
+            <div className='headPage'>
 
                 <h1 style={{ textTransform: 'uppercase' }} >alaverdi</h1>
                 <div className='circle'></div>
