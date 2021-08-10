@@ -52,6 +52,9 @@ function HomePage() {
                     <div className='thirdPic' data-aos="fade-up" >
                         <img src={stationView} />
                     </div>
+                    <div className='seeme'>
+                        <h2>See me?</h2>
+                    </div>
 
                     <div className='forthPic' data-aos="fade-up" >
                         <img src={baghramyanView} />
@@ -61,8 +64,10 @@ function HomePage() {
                         <img src={oldCar} />
                     </div>
 
+
                     <div className='sixthPic' data-aos="fade-up" >
                         <img src={moonView} />
+
                     </div>
 
                     <div className='seventhPic' data-aos="fade-up" >

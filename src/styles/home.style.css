@@ -52,7 +52,11 @@ img{
   
 
 
-
+    .seeme{
+        background-color: brown;
+        height: 100vh;
+        position: relative;
+    }
 
     .head{
         opacity: 100%;
