@@ -31,7 +31,7 @@ function HomePage() {
 
     return (
         <div>
-            <HeadComponent />
+
             <div className='body'>
 
                 <div className='cont1'>

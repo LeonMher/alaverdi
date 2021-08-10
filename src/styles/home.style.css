@@ -1,5 +1,5 @@
 
-.headPage{
+/* .headPage{
     position: relative;
     opacity: 100%;
     height: 100vh;
@@ -18,16 +18,17 @@
      justify-content: center;
      align-items: center;
      
- }
+ } */
 
 
-    
+/*     
 .head h1{
     font-size: 200px;
     letter-spacing: 10px;
-    }
+    } */
     
 .cont1{
+
      height: 300vh;
      
      background: linear-gradient(55deg, #c400f5 0%, #1f86db 51%, #2cb5e8 85%)
@@ -80,7 +81,7 @@ img{
     .firstPic{
         position: absolute;
         left: 190px;
-        top: 820px;
+        top: 320px;
     }
 
 
@@ -88,13 +89,13 @@ img{
     .secondPic{
         position: absolute;
         left: 490px;
-        top: 1120px;
+        top: 620px;
     }
     
     .thirdPic{
         position: absolute;
         left: 890px;
-        top: 820px;
+        top: 320px;
     }
     
     .forthPic{
