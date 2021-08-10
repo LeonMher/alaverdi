@@ -8,6 +8,7 @@ import oldCar from '../media/oldCar.jpg'
 import moonView from '../media/moonView.jpg'
 import stoneBridge from '../media/stoneBridge.jpg'
 import alaverdiView from '../media/alaverdiView.jpg'
+import HeadComponent from './HeadComponent'
 
 
 
@@ -30,12 +31,7 @@ function HomePage() {
 
     return (
         <div>
-            <div className='headPage'>
-
-                <h1 style={{ textTransform: 'uppercase' }} >alaverdi</h1>
-                <div className='circle'></div>
-
-            </div>
+            <HeadComponent />
             <div className='body'>
 
                 <div className='cont1'>

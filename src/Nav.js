@@ -16,7 +16,7 @@ function Nav() {
                 <Bootstrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Bootstrap.Navbar.Collapse id="responsive-navbar-nav">
                     <Bootstrap.Nav className="me-auto">
-                        <Bootstrap.Nav.Link className='nav' ><Link to='/'>Homme</Link></Bootstrap.Nav.Link>
+                        <Bootstrap.Nav.Link className='nav' ><Link to='/'>Home</Link></Bootstrap.Nav.Link>
                         <Bootstrap.Nav.Link className='nav' ><Link to='/list'>Articles</Link></Bootstrap.Nav.Link>
                         <Bootstrap.Nav.Link className='nav' ><Link to='/about'>About</Link></Bootstrap.Nav.Link>
 
