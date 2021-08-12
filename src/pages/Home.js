@@ -8,17 +8,8 @@ import oldCar from '../media/oldCar.jpg'
 import moonView from '../media/moonView.jpg'
 import stoneBridge from '../media/stoneBridge.jpg'
 import alaverdiView from '../media/alaverdiView.jpg'
-import HeadComponent from './HeadComponent'
 
-
-
-
-import '../styles/home.style.css'
-import '../styles/aos.css'
-
-function HomePage() {
-
-
+function Home() {
 
     useEffect(() => {
 
@@ -30,20 +21,18 @@ function HomePage() {
 
 
     return (
-        <div>
-
-            <div className='body'>
-                <div className='seeme'>
-                    <h2>See me?</h2>
-                </div>
-
+        <div className='homeCss'>
+            <div className='homeHeader'>
+                <h1>ALAVERDI</h1>
+            </div>
+            <div className='homeBody'>
                 <div className='cont1'>
 
 
 
                     <div className='firstPic' data-aos="fade-right" >
 
-                        <img src={villagesView} />
+
 
                     </div>
 
@@ -82,12 +71,14 @@ function HomePage() {
 
 
                 </div>
-
             </div>
 
-        </div>
+            <div className='homeFooter'>
+                <h3>Footer</h3>
 
+            </div>
+        </div>
     )
 }
 
-export default HomePage
+export default Home

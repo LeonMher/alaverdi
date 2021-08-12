@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage';
 import About from './pages/About';
 import Article from './pages/Article'
 import ArticlesList from './pages/ArticlesList'
+import Home from './pages/Home';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from './Nav';
@@ -15,7 +16,7 @@ function App() {
     <Router>
       <Nav />
       <div className="App">
-        <Route path='/' component={HomePage} exact />
+        <Route path='/' component={Home} exact />
         <Route path='/about' component={About} />
         <Route path='/list' component={ArticlesList} />
         <Route path='/article/:name' component={Article} />
