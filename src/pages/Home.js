@@ -30,11 +30,6 @@ function Home() {
 
 
 
-                    <div className='firstPic' data-aos="fade-right" >
-
-
-
-                    </div>
 
 
 
@@ -73,10 +68,7 @@ function Home() {
                 </div>
             </div>
 
-            <div className='homeFooter'>
-                <h3>Footer</h3>
 
-            </div>
         </div>
     )
 }
